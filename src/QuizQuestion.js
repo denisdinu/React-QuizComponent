@@ -12,7 +12,6 @@ class QuizQuestion extends Component{
                   <li>
                       {this.props.quiz_question.answer_options[0]}
                   </li>
-                //quiz question button logic goes here
               </ul>
             </section>
           </main> 
@@ -20,4 +19,4 @@ class QuizQuestion extends Component{
     }
 }
 
-export default QuizQuestion;
+export default QuizQuestion
